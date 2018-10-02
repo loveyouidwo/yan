@@ -42,7 +42,7 @@ body.html{
     width:100%;
     height:100%;
     text-align:center;
-    line-height:150px;
+    line-height:200px;
     background-color: #3c3c3c;
 }
 .header .logo .logo-right .search input[type=text]{
