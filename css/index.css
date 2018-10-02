@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+/*---------------内容框----------------------*/
+.header{
+    width:1349px;
+    height:10000px;
+    background-color:red;
+}
+/*---------------内容框----------------------*/
+/*---------------底部吸顶导航栏----------------------*/
+.nav{
+    width:1349px;
+    height:150px;
+    background-color:yellow;
+    position: fixed;
+    left:0;
+    bottom: 0;
+}
+/*---------------底部吸顶导航栏----------------------*/
