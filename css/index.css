@@ -2,67 +2,126 @@
     margin:0;
     padding:0;
     list-style:none;
+    /*border:none;*/
 }
 body.html{
-    width: 1349px;
+    width:1349px;
     height:auto;
 }
-/*---------------内容框----------------------*/
+a{
+    text-decoration: none;
+}
 .header{
     width:1349px;
     height:auto;
 }
-.header .logo{
-    width:100%;
-    height:200px;
-    background:rgba(0,0,0,.5);
+.header .tab-top{
+    width:1349px;
+    height:auto;
+    position: relative;
 }
-.header .logo .logo-left{
-    width:350px;
-    height:100%;
-    float:left;
-    text-align: center;
-    border:1px solid #3c3c3c;
-    box-sizing: border-box;
-}
-.header .logo .logo-left span{
+.header .tab-top .dom{
     width:100%;
-    height:100%;
-    line-height: 200px;
-    color:lightgray;
-    font-family: '楷体';
+    height:10000px;
+    position: absolute;
+    top:0;
+    left:0;
+    display: none;
+    background-color:#cccc;
     font-size:50px;
 }
-.header .logo .logo-right{
-    width:999px;
-    height:100%;
-    float:right;
-}
-.header .logo .logo-right .search{
+.header .tab-top .dom .logo{
     width:100%;
-    height:100%;
-    text-align:center;
-    line-height:200px;
-    background-color: #3c3c3c;
+    height:200px;
 }
-.header .logo .logo-right .search input[type=text]{
-    width:700px;
-    height:89px;
+.header .tab-top .dom .logo .logo-left{
+    width:350px;
+    height:200px;
+    float:left;
+}
+.header .tab-top .dom .logo .logo-right{
+    width:999px;
+    height:200px;
+    background:url("../image/nav.png");
+    float:right;
+    text-align: center;
+    line-height: 200px;
+}
+.header .tab-top .dom .logo .logo-right input[type=text]{
+    width:500px;
+    height:50px;
     border-radius: 50px;
 }
-.header .logo .logo-right .search input[type=button]{
+.header .tab-top .dom .logo .logo-right input[type=button]{
     width:100px;
-    height:89px;
-    border-radius: 20px;
+    height:50px;
+    border-radius: 30px;
 }
-/*---------------内容框----------------------*/
-/*---------------底部吸顶导航栏----------------------*/
-.nav{
+.header .tab-top .dom .nav{
+    width:100%;
+    height:600px;
+    background-color:#fff;
+}
+.header .tab-top .dom .nav  .nav-top{
+    width:100%;
+    height:300px;
+}
+.header .tab-top .dom .nav  .nav-top li{
+    width:150px;
+    height:249px;
+    float:left;
+    margin-left:100px;
+    border:1px solid red;
+    text-align: center;
+    line-height: 249px;
+}
+.header .tab-top .dom .nav  .nav-bot{
+    width:100%;
+    height:300px;
+}
+.header .tab-top .dom .nav  .nav-bot li{
+    width:150px;
+    height:249px;
+    float:left;
+    margin-left:100px;
+    border:1px solid red;
+    text-align: center;
+    line-height: 249px;
+}
+.header .tab-top .dom .advertising{
+    width:100%;
+    height:200px;
+    background-color:#fff;
+    margin-top:20px;
+}
+.header .tab-top .dom .logo2{
+    width:1349px;
+    height:200px;
+}
+    /*-----------导航栏选项卡----------------*/
+.header .tab-bot{
     width:1349px;
     height:150px;
-    background-color:yellow;
     position: fixed;
     left:0;
     bottom: 0;
 }
-/*---------------底部吸顶导航栏----------------------*/
+.header .tab-bot ul{
+    width:1349px;
+    height:150px;
+    background-color:pink;
+    text-align: center;
+}
+.header .tab-bot ul li{
+    float:left;
+    width:200px;
+    height:100px;
+    margin-left:55px;
+    border:1px solid red;
+    margin-top:25px;
+    line-height:100px;
+    cursor:pointer;
+}
+.header .tab-bot ul li.current{
+    background-color:blue;
+}
