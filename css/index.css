@@ -22,7 +22,7 @@ a{
 }
 .header .tab-top .dom{
     width:100%;
-    height:10000px;
+    height:4300px;
     position: absolute;
     top:0;
     left:0;
@@ -97,6 +97,48 @@ a{
 .header .tab-top .dom .logo2{
     width:1349px;
     height:200px;
+}
+.header .tab-top .dom .content{
+    width:100%;
+    height:3000px;
+    background-color:#fff;
+    margin-top:20px;
+}
+.header .tab-top .dom .footer{
+    width:100%;
+    height:100px;
+    margin-top:20px;
+    position: relative;
+}
+.header .tab-top .dom .footer .footer-left{
+    width:100px;
+    height:1px;
+    border-bottom:2px solid #fff;
+    display: inline-block;
+    position: absolute;
+    top:49px;
+    left:400px;
+}
+.header .tab-top .dom .footer .footer-center{
+    width:400px;
+    height:100px;
+    color:#fff;
+    font-size: 25px;
+    font-family: "楷体";
+    position: absolute;
+    top:0;
+    left:500px;
+    line-height: 100px;
+    text-align: center;
+}
+.header .tab-top .dom .footer .footer-right{
+    width:100px;
+    height:1px;
+    border-bottom:2px solid #fff;
+    display: inline-block;
+    position: absolute;
+    top:49px;
+    left:900px;
 }
     /*-----------导航栏选项卡----------------*/
 .header .tab-bot{
