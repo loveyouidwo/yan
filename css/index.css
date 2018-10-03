@@ -10,6 +10,7 @@ body.html{
 }
 a{
     text-decoration: none;
+    color:lightgray;
 }
 .header{
     width:1349px;
@@ -30,6 +31,7 @@ a{
     background-color:#cccc;
     font-size:50px;
 }
+/*------------首页-----------------*/
 .header .tab-top .dom .logo{
     width:100%;
     height:200px;
@@ -94,10 +96,6 @@ a{
     background-color:#fff;
     margin-top:20px;
 }
-.header .tab-top .dom .logo2{
-    width:1349px;
-    height:200px;
-}
 .header .tab-top .dom .content{
     width:100%;
     height:3000px;
@@ -113,7 +111,7 @@ a{
 .header .tab-top .dom .footer .footer-left{
     width:100px;
     height:1px;
-    border-bottom:2px solid #fff;
+    border-bottom:2px solid #3c3c3c;
     display: inline-block;
     position: absolute;
     top:49px;
@@ -122,7 +120,7 @@ a{
 .header .tab-top .dom .footer .footer-center{
     width:400px;
     height:100px;
-    color:#fff;
+    color:#3c3c3c;
     font-size: 25px;
     font-family: "楷体";
     position: absolute;
@@ -134,12 +132,208 @@ a{
 .header .tab-top .dom .footer .footer-right{
     width:100px;
     height:1px;
-    border-bottom:2px solid #fff;
+    border-bottom:2px solid #3c3c3c;
     display: inline-block;
     position: absolute;
     top:49px;
     left:900px;
 }
+/*------------首页-----------------*/
+/*------------信息-----------------*/
+.header .tab-top .logo{
+    width:1349px;
+    height:200px;
+}
+/*------------信息-----------------*/
+/*------------物流走向-----------------*/
+/*------------物流走向-----------------*/
+/*------------收藏-----------------*/
+/*------------收藏-----------------*/
+/*------------我的-----------------*/
+#my_mine{
+    width:1349px;
+    height:2500px;
+}
+.header .tab-top .my-mine{
+    width:100%;
+    height:500px;
+    background:url("../image/my-mine.png");
+}
+.header .tab-top .my-mine .my-mine-top{
+    width:100%;
+    height:100px;
+    position:relative;
+    background:url("../image/my-mine2.png");
+}
+.header .tab-top .my-mine .my-mine-top .my-mine-left{
+    width:100px;
+    height:100px;
+    color:#fff;
+    line-height: 100px;
+    text-align: center;
+    position:absolute;
+    top:0;
+    left:50px;
+}
+.header .tab-top .my-mine .my-mine-top .my-mine-right{
+    width:150px;
+    height:100px;
+    color:#fff;
+    line-height: 100px;
+    text-align: center;
+    position:absolute;
+    top:0;
+    right:50px;
+    border-bottom: 3px solid lightgray;
+}
+.header .tab-top .my-file{
+    width: 100%;
+    height:500px;
+    position: relative;
+}
+.header .tab-top .my-file-left{
+    width:150px;
+    height:150px;
+    border: 3px solid lavender;
+    position: absolute;
+    left:100px;
+    top:150px;
+}
+.header .tab-top .my-file-right{
+    width:700px;
+    height:500px;
+    position: absolute;
+    left:350px;
+    top:150px;
+}
+.header .tab-top .my-file-right ul{
+    width:700px;
+    height:500px;
+}
+.header .tab-top .my-file-right ul li{
+    width:700px;
+    height:100px;
+    line-height: 100px;
+    color:#ffffff;
+}
+/*会员*/
+.header .tab-top .member{
+    width:100%;
+    height:300px;
+    background-color:#fff;
+}
+.header .tab-top .member .member-left{
+    width:300px;
+    height:300px;
+    float:left;
+}
+.header .tab-top .member .member-right{
+    width:1049px;
+    height:300px;
+    float:right;
+}
+.header .tab-top .member .member-right ul{
+    width:1049px;
+    height:300px;
+}
+.header .tab-top .member .member-right ul li{
+    width:1049px;
+    height:150px;
+    line-height: 150px;
+}
+.header .tab-top .member .member-right ul li:nth-child(1){
+    border-bottom: 1px solid lightgray;
+}
+/*会员*/
+/*功能*/
+.header .tab-top .fun{
+    width:100%;
+    height:600px;
+    background-color:#fff;
+    margin-top:20px;
+}
+.header .tab-top .fun .fun-left{
+    width:300px;
+    height:600px;
+    float:left;
+}
+.header .tab-top .fun .fun-right{
+    width:1049px;
+    height:600px;
+    float:right;
+}
+.header .tab-top .fun .fun-right ul{
+    width:1049px;
+    height:600px;
+}
+.header .tab-top .fun .fun-right ul li{
+    width:1049px;
+    height:150px;
+    border-bottom: 1px solid lightgray;
+    line-height: 150px;
+}
+/*功能*/
+/*应用*/
+.header .tab-top .use{
+    width:100%;
+    height:600px;
+    background-color:#fff;
+    margin-top:20px;
+}
+.header .tab-top .use .use-left{
+    width:300px;
+    height:600px;
+    float:left;
+}
+.header .tab-top .use .use-right{
+    width:1049px;
+    height:600px;
+    float:right;
+}
+.header .tab-top .use .use-right ul{
+    width:1049px;
+    height:600px;
+}
+.header .tab-top .use .use-right ul li{
+    width:1049px;
+    height:150px;
+    border-bottom: 1px solid lightgray;
+    line-height: 150px;
+}
+/*应用*/
+/*服务*/
+.header .tab-top .service{
+    width:100%;
+    height:300px;
+    background-color:#fff;
+    margin-top:20px;
+}
+.header .tab-top .service .service-left{
+    width:300px;
+    height:300px;
+    float:left;
+}
+.header .tab-top .service .service-right{
+    width:1049px;
+    height:300px;
+    float:right;
+}
+.header .tab-top .service .service-right ul{
+    width:1049px;
+    height:300px;
+}
+.header .tab-top .service .service-right ul li{
+    width:1049px;
+    height:150px;
+    line-height: 150px;
+}
+.header .tab-top .service .service-right ul li:nth-child(1){
+    border-bottom: 1px solid lightgray;
+}
+/*服务*/
+
+/*-----------我的-----------------*/
+
     /*-----------导航栏选项卡----------------*/
 .header .tab-bot{
     width:1349px;
