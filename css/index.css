@@ -73,7 +73,6 @@ a{
     height:249px;
     float:left;
     margin-left:100px;
-    border:1px solid red;
     text-align: center;
     line-height: 249px;
 }
@@ -86,7 +85,6 @@ a{
     height:249px;
     float:left;
     margin-left:100px;
-    border:1px solid red;
     text-align: center;
     line-height: 249px;
 }
@@ -140,14 +138,56 @@ a{
 }
 /*------------首页-----------------*/
 /*------------信息-----------------*/
+#my_box{
+    width:1349px;
+    height:2300px;
+    background-color:#fff;
+}
 .header .tab-top .logo{
     width:1349px;
     height:200px;
 }
 /*------------信息-----------------*/
 /*------------物流走向-----------------*/
+#my_w{
+    width:1349px;
+    height:2300px;
+}
+.header .tab-top .my-w{
+    width:100%;
+    height:150px;
+    border-bottom: 1px solid #000000;
+    text-align: center;
+    line-height:150px;
+    background-color:#3c3c3c;
+    color:lightgray;
+    font-size:25px;
+}
+.header .tab-top .my-l{
+    width:100%;
+    height:2150px;
+    background-color:#fff;
+}
 /*------------物流走向-----------------*/
 /*------------收藏-----------------*/
+#my_dom{
+    width:1349px;
+    height:2300px;
+    background-color:#fff;
+}
+.header .tab-top .my-s{
+    width:100%;
+    height:100px;
+    text-align: center;
+    line-height: 100px;
+    color:lightgray;
+    border-bottom: 1px solid lightgray;
+    background-color:#3c3c3c;
+}
+.header .tab-top .my-c{
+    width:100%;
+    height:2200px;
+}
 /*------------收藏-----------------*/
 /*------------我的-----------------*/
 #my_mine{
@@ -345,19 +385,39 @@ a{
 .header .tab-bot ul{
     width:1349px;
     height:150px;
-    background-color:pink;
+    border-top: 1px solid #cccc;
+    background-color:#fff;
     text-align: center;
 }
 .header .tab-bot ul li{
     float:left;
-    width:200px;
+    width:140px;
     height:100px;
-    margin-left:55px;
-    border:1px solid red;
+    margin-left:100px;
     margin-top:25px;
     line-height:100px;
     cursor:pointer;
 }
 .header .tab-bot ul li.current{
-    background-color:blue;
+    background-color:#fff;
+}
+.header .tab-bot ul li:nth-child(1){
+    background:url("../image/shou.jpg") no-repeat;
+    background-size:100% 100%;
+}
+.header .tab-bot ul li:nth-child(2){
+    background:url("../image/xin.jpg") no-repeat;
+    background-size:100% 100%;
+}
+.header .tab-bot ul li:nth-child(3){
+    background:url("../image/wu.png") no-repeat;
+    background-size:100% 100%;
+}
+.header .tab-bot ul li:nth-child(4){
+     background:url("../image/shouc.png") no-repeat;
+     background-size:100% 100%;
+ }
+.header .tab-bot ul li:nth-child(5){
+    background:url("../image/my.jpg") no-repeat;
+    background-size:100% 100%;
 }
